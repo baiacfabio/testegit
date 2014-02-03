@@ -148,6 +148,34 @@ Notes related resources of the **Notes API**
             "status": 1,
             "idlanguage": "pt"
         }]
+        
+## Informacoes do Filme [/cinema/filme/codFilme/{codFilme}]
+Obtem um filme especifico com todas as suas informacoes
+
++ Parameters
+    + codFilme (required, number, `1`) ... Numeric `codFilme` of the Note to perform action with. Has example value.
+
+### Obtem as informações de um filme específico [GET] 
++ Response 200 (application/json) 
+        [
+        "filme": {
+            "id": 181,
+            "titulo": "Até Que a Sorte Nos Separe 2",
+            "titulooriginal": "Até Que a Sorte Nos Separe 2",
+            "sinopse": "Juntos novamente, Tino e Jane mais uma vez estão em dificuldades financeiras. O saldo bancário do casal é salvo graças ao inesperado falecimento de tio Olavinho, que deixou para eles uma herança de R$ 50 milhões. Como o último desejo do tio foi que suas cinzas sejam jogadas no Grand Canyon, Tino e família aproveitam a viagem para dar uma esticada até Las Vegas.",
+            "palavraschave": "",
+            "duracao": 102,
+            "site": "",
+            "trailer": "",
+            "censura": "10",
+            "cartaz": "cine_filme_1387814390_367.jpg",
+            "imagem": null,
+            "status": 1,
+            "idlanguage": "pt",
+            "estreia": 2,
+            "preestreia": 2
+        }]
+    
 
 
 ### Create a Note [POST]
