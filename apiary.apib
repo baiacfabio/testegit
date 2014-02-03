@@ -17,6 +17,139 @@ Notes related resources of the **Notes API**
           "id": 2, "title": "Pick-up posters from post-office"
         }]
 
+## Programacao do Cinema [/cinema/programacao]
+### Lista a programação do cinema [GET]
++ Response 200 (application/json)
+
+        [{
+            "filme": {
+                "id": 169,
+                "titulo": "Frankenstein - Entre Anjos e Demonios",
+                "titulooriginal": "Frankenstein - Entre Anjos e Demonios",
+                "sinopse": "Versão moderna da história do cientista Frankenstein e de seu monstro. Desta vez, a criatura participa de uma longa e sangrenta batalha entre dois grupos que se opõem há séculos.",
+                "palavraschave": null,
+                "duracao": 92,
+                "site": null,
+                "trailer": null,
+                "censura": "12",
+                "cartaz": "cine1389897954_492.jpg",
+                "imagem": null,
+                "status": 1,
+                "idlanguage": "pt",
+                "estreia": 2,
+                "preestreia": 2,
+                "dias": [
+                    "Seg",
+                    "Ter",
+                    "Qua",
+                    "Qui",
+                    "Sex",
+                    "Sáb",
+                    "Dom"
+                    ],
+                "opcoes": [
+                    "3D Dublado",
+                    "3D Legendado"
+                ]
+            },
+            "generos": [
+                {
+                "id": 8,
+                "nome": "Terror",
+                "idlanguage": "pt"
+                }
+            ],
+            "opcoes": {
+                "1064": {
+                    "programacao": {
+                        "id": 1064,
+                        "nome": "Frankenstein - Entre Anjos e Demonios",
+                        "dimensao": "3D",
+                        "legenda": "Dublado",
+                        "datahoraentrada": "31/01/2014 00:01:00",
+                        "datahorasaida": "06/02/2014 00:00:00",
+                        "estreia": 2,
+                        "preestreia": 2,
+                        "linkcompraringresso": null,
+                        "ordem": 1,
+                        "status": 1,
+                        "idlanguage": "pt"
+                    },
+                    "sessoes": {
+                        "2027": {
+                            "dias": "Diariamente",
+                            "horarios": {
+                                "4572": {
+                                    "sala": "6",
+                                    "hora": "13:10"
+                                },
+                                "4573": {
+                                    "sala": "6",
+                                    "hora": "15:30"
+                                }
+                            }
+                        }
+                    }
+                },
+                "1065": {
+                    "programacao": {
+                        "id": 1065,
+                        "nome": "Frankenstein - Entre Anjos e Demonios",
+                        "dimensao": "3D",
+                        "legenda": "Legendado",
+                        "datahoraentrada": "31/01/2014 00:01:00",
+                        "datahorasaida": "06/02/2014 00:00:00",
+                        "estreia": 2,
+                        "preestreia": 2,
+                        "linkcompraringresso": null,
+                        "ordem": 2,
+                        "status": 1,
+                        "idlanguage": "pt"
+                    },
+                    "sessoes": {
+                        "2028": {
+                            "dias": "Diariamente",
+                            "horarios": {
+                                "4574": {
+                                    "sala": "6",
+                                    "hora": "17:50"
+                                },
+                                "4575": {
+                                    "sala": "6",
+                                    "hora": "20:10"
+                                },
+                                "4576": {
+                                    "sala": "6",
+                                    "hora": "22:30"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }]
+
+## Informacoes do Cinema [/cinema/informacao]
+### Lista as informações do cinema [GET]
++ Response 200 (application/json)
+
+        [{
+            "id": 1,
+            "empresa": " Cinemark",
+            "chamada": null,
+            "descricao": "Confira aqui a programação do Cinemark do Shopping Vitória. São 8 amplas salas, com muitas atrações para você.",
+            "logo": "cine_informacao_1391105950_470.jpg",
+            "imagem": null,
+            "video": null,
+            "link": "http://www.cinemark.com.br",
+            "horariofuncionamento": null,
+            "valores": " ",
+            "contato": "Maiores informações no site <a href="http://www.cinemark.com.br" target="_blank" >www.cinemark.com.br</a>.",
+            "status": 1,
+            "idlanguage": "pt"
+        }]
+
+
 ### Create a Note [POST]
 + Request (application/json)
 
