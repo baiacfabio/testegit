@@ -1,3 +1,5 @@
 iniciando a codificacao da funcionalidade A
 
 ainda na funcionalidade A
+
+corrigindo bug da funcionalidade A
