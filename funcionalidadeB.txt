@@ -1,3 +1,5 @@
 Iniciando Funcionalidade B
 
 ainda trabalhando nessa funcionalidade
+
+corrigindo bugs criados pela funcionalidade B
