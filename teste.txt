@@ -1,1 +1,3 @@
 iniciando a codificacao da funcionalidade A
+
+ainda na funcionalidade A
