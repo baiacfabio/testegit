@@ -1,3 +1,5 @@
 funcionalidade b2 da featureB
 
 ainda na featureB, funcionalidade B2
+
+ainda na B2
